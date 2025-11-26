@@ -89,8 +89,8 @@ function animate() {
   // Rotate faster for more dynamic motion
   if (!particlesHidden) {
     particlesData.forEach((layerData, idx) => {
-      layerData.pointCloud.rotation.y += 0.0025 + idx * 0.0012
-      layerData.pointCloud.rotation.x += 0.001
+      layerData.pointCloud.rotation.y += 0.0008 + idx * 0.0003
+      layerData.pointCloud.rotation.x += 0.0003
     })
     updateLines()
   }
