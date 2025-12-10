@@ -64,7 +64,12 @@
       <h2 class="text-5xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
         Mes compétences en programmation
       </h2>
-
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="p-6 bg-[#1a1a2e]/60 rounded-2xl shadow-lg hover:scale-105 hover:bg-[#1f1f3a] transition-all">
+          <h3 class="text-2xl font-semibold text-indigo-400 mb-2">DevOps</h3>
+          <p class="text-gray-300">Maîtrise de Git, Docker et Jenkins. Compétences en sécurité et administration de systèmes et réseaux.</p>
+        </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="p-6 bg-[#1a1a2e]/60 rounded-2xl shadow-lg hover:scale-105 hover:bg-[#1f1f3a] transition-all">
           <h3 class="text-2xl font-semibold text-indigo-400 mb-2">C# & ASP.NET</h3>
